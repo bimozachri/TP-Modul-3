@@ -17,9 +17,9 @@ namespace TP_MOD3_1302213012
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_MouseClick(object sender, MouseEventArgs e)
         {
-
+            this.label1.Text = "Halo " + this.textBox1.Text;
         }
     }
 }
